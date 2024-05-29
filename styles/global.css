@@ -1,0 +1,25 @@
+:root {
+    --color-primary: rgba(108, 56, 204, 1);
+    --color-primary-hover: rgb(81, 39, 159);
+    --color-bg: #16171D;
+    --color-bg-medium: #1E1F29;
+    --color-bg-light: #2E2D3D;
+    --color-text: #FAFAFA;
+    --color-text-hover: #AFB2BF;
+    --color-border: #4D5064;
+    --gradient: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+
+    --border-8: 8px;
+    --border-10: 10px;
+    --layout-width: 1172px;
+
+}
+body {
+    background: var(--color-bg);
+    font-family: 'Fira Sans' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
