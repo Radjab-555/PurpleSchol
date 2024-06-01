@@ -8,11 +8,21 @@
     --color-text-hover: #AFB2BF;
     --color-border: #4D5064;
     --gradient: linear-gradient(93.33deg, #D77BE6 9.26%, #BE63E6 42.32%, #6C38CC 104.58%);
+    --color-footer: #101114;
+    --color-secondary: #E47AD5;
 
     --border-8: 8px;
     --border-10: 10px;
     --layout-width: 1172px;
 
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
 }
 body {
     background: var(--color-bg);

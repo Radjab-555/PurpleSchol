@@ -1,9 +1,13 @@
+.section__leght {
+    background-color: var(--color-bg-medium);
+}
 .hero {
     max-width: var(--layout-width);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 24px;
 }
 .hero__left {
     display: flex;
@@ -27,6 +31,9 @@
 .hero__cta {
     display: flex;
     gap: 32px;
+}
+.button-more {
+    text-align: center;
 }
 @media (max-width: 1200px) {
     .hero {
